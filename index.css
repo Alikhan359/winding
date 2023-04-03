@@ -4,7 +4,7 @@ html, body {
 }
 body {
     margin: 0px 15px;
-    background-color: darkorange;
+    background-color: #dd40a9;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 
@@ -12,7 +12,15 @@ body {
 h1  {
     margin: 5px 0px;
 }
-
+.main-img{
+    margin: 15px;
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
 .container {
     text-align: center;
     /* background-color: lightgreen; */
@@ -25,6 +33,7 @@ h1  {
 }
 .form {
     padding: 5px 15px;
+    margin-bottom: 15px;
     display: grid;
     gap: 5px;
     /* flex-direction: column; */
@@ -53,7 +62,7 @@ button {
     border-radius: 10px;
     background-color: green;
     color: white;
-    margin: 4px 0px;
+    margin: 5px 0px;
 }
 .danger {
     background-color: red;
@@ -84,7 +93,7 @@ tbody {
 
 .download {
     background-color:  darkturquoise;
-    margin-top: 10px;
+    margin-top: 5px;
     color: black;
     font-weight: 400;
 }

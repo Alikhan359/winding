@@ -1,5 +1,5 @@
 {
-  "name": "ziakaProject",
+  "name": "fanwinding",
   "short_name": "winding",
   "icons": [
     {
@@ -13,8 +13,8 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "darkorange",
-  "background_color": "darkorange",
+  "theme_color": "#dd40a9",
+  "background_color": "#dd40a9",
   "start_url" : "/winding/",
   "display": "standalone"
 }
