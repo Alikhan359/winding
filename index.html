@@ -9,6 +9,21 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">      
     <link rel="stylesheet" href="index.css">
+
+    <script>
+       
+        window.addEventListener('load', () => {
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js').then(() => {
+              console.log('Service worker registered!');
+            }).catch((error) => {
+              console.warn('Error registering service worker:');
+              console.warn(error);
+            });
+          }
+        });
+      </script>
+
     </head>
     <body>
         <div class="container">

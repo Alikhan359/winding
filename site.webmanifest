@@ -15,6 +15,6 @@
   ],
   "theme_color": "darkorange",
   "background_color": "darkorange",
-  "start_url" : "/",
+  "start_url" : "/winding/",
   "display": "standalone"
 }
