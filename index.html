@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Fan winding formula</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">      
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+                <h1>Fan Winding Formulas</h1>
+                
+                <div class="form" id="form">
+                    <!-- <label htmlFor="compony-name">Compony :</label> -->
+                    <input  type="text" id="compony-name" placeholder="Compony Name"  >
+                    
+                    <!-- <label htmlFor="pitch">Pitch :</label> -->
+                    <input type="text" id="pitch" placeholder="Pitch No" >
+                    
+                    <!-- <label htmlFor="">S No. :</label> -->
+                    <input type="text" id="s-number" placeholder="Starting-Turn" >
+                    
+                    <!-- <label htmlFor="">R-Turn :</label> -->
+                    <input type="text" id="r-number" placeholder="Running-Turn" >
+                    
+                    <!-- <label htmlFor="">Wire No. :</label> -->
+                    <input type="text" id="w-number" placeholder="Wire No"  >
+                    
+                    <!-- <label htmlFor="">Slad :</label> -->
+                    <input type="text" id="slad" placeholder="Slad"  >
+                    
+                </div>
+                    <button id="submit-btn">Create Table</button>
+                    <button class="danger" id="clear-btn">Clear Table</button>
+                
+            <div style="overflow-x:auto;">
+                <table id="table">
+                    <thead class="hide" id="thead">
+                        <th>Compony Name</th>
+                        <th>Pitch</th>
+                        <th>S-Turn</th>
+                        <th>R-Turn</th>
+                        <th>Wire No</th>
+                        <th>Slad</th>
+                    </thead>
+                    <tbody id="table-body">
+                        
+                    </tbody>
+                  
+                    
+                </table> 
+            </div>
+            <button class="download" id="download-btn">Download</button>
+        </div>
+       
+        
+        
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

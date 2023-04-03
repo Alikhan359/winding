@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px 15px;
+    background-color: darkorange;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1  {
+    margin: 5px 0px;
+}
+
+.container {
+    text-align: center;
+    /* background-color: lightgreen; */
+    width: 100%;
+    /* max-width: 320px; */
+    /* margin: 5px auto; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.form {
+    padding: 5px 15px;
+    display: grid;
+    gap: 5px;
+    /* flex-direction: column; */
+    grid-template: repeat(3 , 1fr) / 1fr 1fr;
+    align-items: center;
+}
+.form > input {
+    width: 80%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form > label {
+    font-weight: 700;
+}
+
+button {
+    grid-column: 1 / -1 ;
+    padding: 12px 10px;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    margin: 4px 0px;
+}
+.danger {
+    background-color: red;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+th {
+    background-color: #669bbc;
+    
+}
+tbody {
+    background-color: #edede9;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+ tr , th , td {
+    border: 2px solid black;
+    padding: 7px 5px;
+}
+.hide {
+    display: none;
+}
+
+.download {
+    background-color:  darkturquoise;
+    margin-top: 10px;
+    color: black;
+    font-weight: 400;
+}
